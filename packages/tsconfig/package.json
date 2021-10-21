@@ -1,0 +1,11 @@
+{
+  "name": "@devsecops-cli/tsconfig",
+  "version": "1.0.0",
+  "description": "Shared TypeScript config for the DevSecOps CLI",
+  "main": "tsconfig.json",
+  "author": "Bence Dányi <Bence.Danyi@ibm.com>",
+  "license": "Apache-2.0",
+  "files": [
+    "tsconfig.json"
+  ]
+}
