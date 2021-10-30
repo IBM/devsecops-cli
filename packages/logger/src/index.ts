@@ -9,10 +9,20 @@ enum Level {
 type Logger = Record<Level, (message: string | Error) => void>;
 
 export class ConsoleLogger implements Logger {
+  prefix?: string;
+
+  constructor(prefix?: string) {
+    this.prefix = prefix;
+  }
+
   protected log(level: Level, message: string | Error) {
     message = message instanceof Error ? message.stack ?? message.message : message;
     for (const line of message.split('\n')) {
-      console.error(`${level} | ${line}`);
+      if (this.prefix) {
+        console.error(`${level} | ${this.prefix} | ${line}`);
+      } else {
+        console.error(`${level} | ${line}`);
+      }
     }
   }
 
