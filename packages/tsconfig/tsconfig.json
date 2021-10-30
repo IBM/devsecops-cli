@@ -4,11 +4,9 @@
     "module": "commonjs",
     "lib": ["ESNEXT"],
     "sourceMap": true,
-    "rootDir": "./",
-    "noEmit": true,
+    "declaration": true,
     "strict": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true
-  },
-  "include": ["src/**/*.ts"]
+  }
 }
