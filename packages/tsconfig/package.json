@@ -1,6 +1,6 @@
 {
   "name": "@devsecops-cli/tsconfig",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Shared TypeScript config for the DevSecOps CLI",
   "main": "tsconfig.json",
   "author": "Bence Dányi <Bence.Danyi@ibm.com>",
