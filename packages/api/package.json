@@ -1,0 +1,38 @@
+{
+  "name": "@devsecops-cli/api",
+  "version": "1.0.0",
+  "description": "HTTP API client for devsecops-cli",
+  "main": "build/index.js",
+  "devDependencies": {
+    "@devsecops-cli/logger": "^1.1.1",
+    "@devsecops-cli/tsconfig": "^2.0.0",
+    "@types/node": "^16.11.6",
+    "typescript": "^4.4.4"
+  },
+  "files": [
+    "build/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IBM/devsecops-cli.git"
+  },
+  "keywords": [
+    "http",
+    "api",
+    "devsecops",
+    "client"
+  ],
+  "author": "Bence Dányi <Bence.Danyi@ibm.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/IBM/devsecops-cli/issues"
+  },
+  "homepage": "https://github.com/IBM/devsecops-cli#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
