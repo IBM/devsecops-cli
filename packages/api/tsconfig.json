@@ -1,0 +1,7 @@
+{
+  "extends": "@devsecops-cli/tsconfig",
+  "compilerOptions": {
+    "rootDir": "src",
+    "outDir": "build"
+  }
+}
