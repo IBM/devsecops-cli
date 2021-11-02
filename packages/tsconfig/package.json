@@ -7,5 +7,16 @@
   "license": "Apache-2.0",
   "files": [
     "tsconfig.json"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IBM/devsecops-cli.git"
+  },
+  "keywords": [
+    "tsconfig"
+  ],
+  "bugs": {
+    "url": "https://github.com/IBM/devsecops-cli/issues"
+  },
+  "homepage": "https://github.com/IBM/devsecops-cli#readme"
 }
